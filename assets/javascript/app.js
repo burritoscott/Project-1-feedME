@@ -1,3 +1,4 @@
+
   $('#artistSearch').on('click', function(){
     event.preventDefault();
 
@@ -30,3 +31,4 @@ $.ajax({
 //     firebase.initializeApp(config);
 //
 //     var database = firebase.database();
+
