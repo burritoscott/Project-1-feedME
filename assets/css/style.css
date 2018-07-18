@@ -1,5 +1,21 @@
 .img-rounded {
-    height: 200px;
-    width: 200px;
-    border-radius: 25%;
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+}
+
+#title {
+  font-family: Lucida Console, Courier, monospace;
+}
+
+#contentOnPage {
+  font-style: normal;
+  font-size: 15px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 15px;
+  text-indent: 30px;
+
 }
