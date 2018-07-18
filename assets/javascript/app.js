@@ -12,16 +12,39 @@ $(document).ready(function() {
       messagingSenderId: "557116830448"
     };
     firebase.initializeApp(config);
+
+    var database = firebase.database();
+
+-------------------------------------------------------------
+    $('input').on('submit', function(){
+      event.preventDefault();
+
+      var restaurantName = ;
+      var url = 'https://api.yelp.com/v3' + ' ';
+
+
+/businesses/search
+/businesses/{id}/reviews
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </script>
-
-
-var queryURL = 'https://api.foursquare.com/v2/venues/search?near=' + nearVenue + '&query=' + searchTerm + '&limit=10&client_id=ITN3RTSLWS0EZ1NZ0NKWQBNJBUSE2F44N43VS5ZI0BYN0EHA&client_secret=1GDMIQM0YKKKWYAQH0WVTAYBLIJ3YXZJMDIAOHDVFXFJI4DC&v=20140806'
-    $.ajax({
-      url: queryURL,
-      method: 'GET'
-    }).then(function (data) {
-      console.log(data.response);
-
-    // Notes Below:
-
-    //API Key: e2146a17c6918286de09fe9bc122347d
