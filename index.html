@@ -5,27 +5,70 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <link rel="stylesheet" type="text/javascript" href="assets/javascript/app.js"/>
 </head>
 <body>
 
 
-<div class = "jumbotron text-center">
-    <h1>Hot or Not</h1>
+<div id="title" class = "jumbotron text-center">
+    <h1>Rate Your Music</h1>
 </div>
 
-<div class="container">
+<div id="contentOnPage" class="container">
 
+
+        <div class="row">
+          <div class="col-sm-4" class = "homePageButtons">
+            <!-- //add a src for the image file OR use js to populate?  -->
+            <img src = "assets/images/prince.jpg" class = "img-rounded" alt= "prince">
+            <!-- <h3>Search an Artist</h3> -->
+            <form>
+              <br>
+              <input type="text" id="inputBand" placeholder="Search an Artist">
+              <button type="submit" id="artistSearch">go!</button>
+            </form>
+          </div>
+
+          <div class="col-sm-4" class = "homePageButtons">
+            <!-- //add a src for the image file OR use js to populate?  -->
+            <img src = "assets/images/theBeatles.jpg" class="img-rounded" alt="theBeatles">
+            <!-- <h3 class = "centered">Search a Band</h3> -->
+            <form>
+            <br>
+            <input type="text" id="inputBand" placeholder="Search a Band">
+            <button type="submit" id="artistSearch">go!</button>
+            </form>
+          </div>
+
+          <div class="col-sm-4" class = "homePageButtons">
+              <!-- //add a src for the image file OR use js to populate?  -->
+            <img src = "assets/images/simonCowell.jpg" class = "img-rounded" alt="simonCowell">
+            <!-- <h3>Rate the talent</h3> -->
+            <form>
+              <br>
+            <input type="text" id="inputBand" placeholder="Rate the talent">
+            <button type="submit" id="artistSearch">go!</button>
+            </form>
+          <div id="bandInfo">
+          </div>
+          </div>
+        </div>
+      </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous">
+</script>
+<script rel="stylesheet" type="text/javascript" src="assets/javascript/app.js"/>
+=======
 
 <script
 src="https://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous">
 
-
-
 </script>
 
 
-</body>
+
 </html>
